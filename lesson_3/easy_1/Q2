@@ -1,0 +1,24 @@
+-! can be appended to a method name to show that it is destructive
+  it is part of the method name and part of ruby syntax
+-it is also known as the 'bang operator' and can be prepended to an object
+  to reverse or negate it's boolean value
+  -? can be appended to a method name to show that it returns a boolean
+    it is part of the method name and part of ruby syntax
+
+1. What is != and where should you use it?
+  != means 'does not equal', to be used for comparison
+
+2. put ! before something, like !user_name
+  negates the object's boolean value
+
+3. put ! after something, like words.uniq!
+  used to demonstrate that the method is destructive and mutates the caller
+
+4. put ? before something
+  ? : is the ternary operator for if/else
+
+5. put ? after something
+  used in method name to demonstrate that the method will return a boolean
+
+6. put !! before something, like !!user_name
+ used to turn something into it's boolean equivalent
